@@ -26,11 +26,10 @@ html, body {
   color: #fff;
   text-align: center;
   border-radius: 2rem;
-}
-
-.child {
-  padding: 1rem;
-  background-color: #19647E;
-  margin-top: 1rem;
-  border-radius: 10rem;
+  .child {
+    padding: 1rem;
+    background-color: #19647E;
+    margin-top: 1rem;
+    border-radius: 10rem;
+  }
 }

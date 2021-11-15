@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,900i');
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+$color-primary: #15DEA5;
+$color-secondary: #EA526F;
+
+// Créez un sélecteur .heading-typography 
+// et donnez-lui des propriétés typographiques, 
+// comme font-size, font-style, color, etc.
+// Utilisez nesting et l'esperluette pour créer 
+// des éléments de tirtes pour les blocs .form et .proj-prev
+// Utilisez le mot-clé @extend pour étendre
+// les nouveaux éléments .form__heading et .proj-prev__heading 
+// à .heading-typography.
+
+
+.heading-typography {
+  font-size: 3rem;
+  font-weight: bold;
+  color: darkcyan;
+}
+
+
+
+.form {
+  background: $color-primary;
+  width: 100%;
+  padding: 1rem 2rem;
+  &__heading {
+    @extend .heading-typography
+  }
+}
+
+.proj-prev {
+  background: $color-secondary;
+  width: 100%;
+  padding: 1rem 2rem;
+    &__heading {
+    @extend .heading-typography
+  }
+}

@@ -19,7 +19,9 @@ html, body {
   justify-content: space-evenly;
 }
 
-$color-primary: #15DEA5;
+@mixin border-primary{
+  border: 0.1rem solid $color-primary;
+}
 
 .btn {
   padding: 1.5rem;
@@ -30,8 +32,7 @@ $color-primary: #15DEA5;
   color: #fff;
   &--outline {
     background: transparent;
-    border: 2px solid $color-primary;
+    @include border-primary;
     color: $color-primary;
   }
 }
-

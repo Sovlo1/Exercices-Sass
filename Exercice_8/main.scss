@@ -24,14 +24,11 @@ html, body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
-
-.poll__pic {
+  &__pic {
   width: 100%;
   align-self: center;
 }
-
-.poll__opt {
+  &__opt {
   width: 40%;
   cursor: pointer;
   text-align: center;
@@ -40,7 +37,7 @@ html, body {
   margin-top: .5rem;
   color: #fff;
 }
-
-.poll__opt--pink {
+  &__opt--pink {
   background: #EA526F;
+}
 }

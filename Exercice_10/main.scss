@@ -19,24 +19,26 @@ html, body {
   justify-content: space-evenly;
 }
 
+$color-primary: lightblue;
+$color-secondary: #EA526F;
+
 .btn {
   padding: 1.5rem;
-  background: #15DEA5;
+  background: $color-primary;
   cursor: pointer;
   border-radius: 100rem;
   font-size: 1.5rem;
   color: #fff;
   &--pink {
-    background: #EA526F;
+    background: $color-secondary;
   }
   &--outline {
     background: transparent;
-    border: 2px solid #15DEA5;
-    color: #15DEA5;
+    border: 2px solid $color-primary;
+    color: $color-primary;
     &.btn--pink {
-      border: 2px solid #EA526F;
-      color: #EA526F;
+      border: 2px solid $color-secondary;
+      color: $color-secondary;
     }
   }
 }
-

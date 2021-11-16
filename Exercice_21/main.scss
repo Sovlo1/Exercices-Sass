@@ -17,9 +17,11 @@ html, body {
   flex-wrap: wrap;
 }
 
+$btn-mods: (pink:$color-secondary, blue:$color-tertiary);
+
 $color-primary: #15DEA5;
-$color-secondary: #EA526F;
-$color-tertiary: #19647E;
+$color-secondary: map-get($btn-mods, pink);
+$color-tertiary: map-get($btn-mods, blue);
 $color-accent: #FFF;
 
 .btn {
@@ -39,3 +41,4 @@ $color-accent: #FFF;
     background: $color-tertiary;
   }
 }
+

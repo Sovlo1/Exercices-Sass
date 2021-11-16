@@ -246,7 +246,7 @@ button {
   -ms-grid-rows: (auto)[3];
       grid-template-rows: repeat(3, auto);
   padding: 1.5rem;
-      grid-template-areas: "imagery heading" "imagery copy" "imagery btn";
+      grid-template-areas: "imagery heading" "imagery copy" "imagery btn";
   margin-bottom: 1.5rem;
 }
 
@@ -326,7 +326,7 @@ button {
   -ms-grid-rows: (auto)[3];
       grid-template-rows: repeat(3, auto);
   grid-gap: 1.5rem;
-      grid-template-areas: "image synopsis" "tags synopsis" "btn btn";
+      grid-template-areas: "image synopsis" "tags synopsis" "btn btn";
 }
 
 .project__image {
